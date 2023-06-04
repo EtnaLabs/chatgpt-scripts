@@ -1,0 +1,51 @@
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Environment and virtualenv files
+.env
+venv/
+env/
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+venv/
+env/
+
+# Local development settings
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Development database
+.db.sqlite3
+
+# Coverage directory used by tools like pytest-cov
+/coverage/
+
+# Translations
+*.mo
+*.pot
+
+# Other
+*.pyo
+*.pyd
+*.swp
+*~
+._*
+.build/
+dist/
+*.egg-info/
