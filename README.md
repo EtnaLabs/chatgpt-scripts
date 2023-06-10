@@ -28,6 +28,26 @@ git stash save --keep-index
 ls -l | sort -k 9
 ```
 
+### How to install Sai
+To install sai:
+1. Clone this repository:
+```bash
+git clone git@github.com:EtnaLabs/chatgpt-scripts.git
+```
+2. Add exec permission:
+```bash
+chmod +x sai.py
+````
+3. Add the following alias to your `.bashrc` or `.zshrc` file:
+```bash
+alias sai="python3 <path_to_sai>/sai.py"
+```
+4. Reload your terminal and try it out:
+```bash
+source ~/.bashrc
+sai "how are you today?"
+```
+
 
 ## Makefile Commands
 Copy the Makefile into your directory and use the following commands.
