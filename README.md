@@ -8,6 +8,27 @@ with ChatGPT.
 Whether you're new to ChatGPT or a seasoned pro-user, this repository aims to provide valuable resources to enhance your
 experience.
 
+## Sai
+You can't remember how to build and run a docker image or some other commands, you can ask sai. Here are a few examples:
+
+```bash
+ ❯ sai "how do you build and run a docker image?"
+docker build -t <image_name> <path_to_dockerfile>
+
+docker run <image_name>
+```
+
+```bash
+ ❯ sai "how do you find stash only staged changes in git?"
+git stash save --keep-index
+```
+
+```bash
+ ❯ sai "how do you get the list of files ordered by name?"
+ls -l | sort -k 9
+```
+
+
 ## Makefile Commands
 Copy the Makefile into your directory and use the following commands.
 
