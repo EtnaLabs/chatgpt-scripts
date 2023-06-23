@@ -31,7 +31,8 @@ PROMPT = BRIGHT_BLACK
 @click.argument("question", default="")
 def cli(question: str):
     if not question:
-        question = click.prompt("Type your question")
+        click.secho("Type your question: ", fg=PROMPT, nl=False)
+        question = click.prompt("", prompt_suffix="")
 
     """Sai is a command line tool to use ChatGPT to ask questions about your project."""
     response = openai.ChatCompletion.create(
